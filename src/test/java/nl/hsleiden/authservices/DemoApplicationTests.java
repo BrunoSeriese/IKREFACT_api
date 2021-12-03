@@ -1,4 +1,4 @@
-package com.example.demo;
+package nl.hsleiden.authservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
