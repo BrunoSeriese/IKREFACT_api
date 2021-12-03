@@ -90,7 +90,7 @@
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>libs/</classpathPrefix>
                             <mainClass>
-                                nl.hsleiden.iipsene2database.MainApplication
+                                nl.hsleiden.ikrefact.MainApplication
                             </mainClass>
                         </manifest>
                     </archive>
