@@ -1,4 +1,4 @@
-package controller;
+package nl.hsleiden.authservices.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.*;
 public class TestController {
 
 
-    @GetMapping("/")
+    @GetMapping()
     @ResponseBody
-    public String test(){
+    String test(){
         return "hello world";
     }
 
