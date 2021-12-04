@@ -21,7 +21,7 @@ import java.util.function.Function;
 public class JwtUtil {
     private final long expirationTime = TimeUnit.HOURS.toMillis(10);
 
-    @Value("${nl.hsleiden.iipsene2database.app.jwtSecret}")
+    @Value("${nl.hsleiden.authservices.jwtSecret}")
     private String secret;
 
     public String extractEmail(String token) {
